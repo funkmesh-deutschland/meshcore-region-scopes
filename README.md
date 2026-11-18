@@ -129,7 +129,7 @@ Die Gebiete sind aus den amtlichen Verwaltungsgrenzen zusammengesetzt (Gemeinden
 
 Jede Region ist möglichst eine zusammenhängende Fläche. Kleine Exklaven von Gemeinden und Kreisen, etwa Waldstücke im Gebiet der Nachbargemeinde, zählen zu der Region, in der sie liegen. Aus mehreren Flächen bestehen nur Regionen, die wirklich getrennt sind: Inseln, Bremen mit Bremerhaven oder Gebiete, die durch Wasser oder das Ausland vom Rest getrennt sind.
 
-Ein paar Scopes haben bewusst kein Gebiet, weil es keine feste Abgrenzung gibt: `rheinland`, `fr`, `de-dk`, `dach`, `europe`, `local` und `lokal`.
+Ein paar Scopes haben bewusst kein Gebiet, weil es keine feste Abgrenzung gibt: `fr`, `de-dk`, `dach`, `europe`, `local` und `lokal`.
 
 ## Quellen und Lizenz
 
