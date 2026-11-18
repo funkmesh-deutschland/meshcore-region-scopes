@@ -66,11 +66,20 @@ Regeln für die Koordinaten:
 
 Es gibt drei Wege. Alle führen zur selben Datei.
 
-### Weg 1: Editor im Mitgliederbereich von Funkmesh Deutschland
+### Weg 1: Regionen-Editor auf funkmesh.de
 
-Mitglieder mit der Rolle Wissensredaktion bearbeiten die Regionen direkt auf einer Karte: Fläche zeichnen, Punkte verschieben, Stücke ausschneiden, Angaben ausfüllen, speichern. Der Editor schreibt die Änderung als Commit in dieses Repository.
+Der einfachste Weg für alle. Öffne [funkmesh.de/wissen/region-editor](https://funkmesh.de/wissen/region-editor):
 
-### Weg 2: Auf einer Karte zeichnen und hier einreichen
+1. Wähle eine bestehende Region aus oder klicke auf "Neue Region".
+2. Zeichne die Fläche auf der Karte, verschiebe Punkte oder schneide Stücke aus. Fülle Scope, Name, Ebene und Beschreibung aus.
+3. Klicke auf "Eintrag erzeugen". Der Editor zeigt die fertige Zeile für `regions.geojson` und sagt dir, an welcher Stelle sie in die Datei gehört.
+4. Öffne hier `regions.geojson`, klicke auf den Stift, füge die Zeile ein oder ersetze die bisherige Zeile der Region und stelle einen Pull Request.
+
+Der Editor speichert selbst nichts. Jeder Vorschlag läuft über einen Pull Request und wird vor der Übernahme geprüft.
+
+Mitglieder von Funkmesh Deutschland mit der Rolle Wissensredaktion haben denselben Editor im Mitgliederbereich. Dort lassen sich Änderungen direkt speichern und eingegangene Vorschläge auf der Karte mit dem bisherigen Stand vergleichen.
+
+### Weg 2: Mit geojson.io zeichnen und hier einreichen
 
 1. Öffne [geojson.io](https://geojson.io).
 2. Zeichne die Fläche mit dem Polygon-Werkzeug. Für einen ganzen Landkreis oder eine Gemeinde kannst du die fertige Fläche bei [opendatalab.de](https://opendatalab.de/projects/geojson-utilities/) herunterladen.
