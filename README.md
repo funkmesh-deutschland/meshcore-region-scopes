@@ -127,6 +127,8 @@ Der Startbestand umfasst 225 Scopes und wurde im November 2026 aus den beiden Wi
 
 Die Gebiete sind aus den amtlichen Verwaltungsgrenzen zusammengesetzt (Gemeinden, Kreise, Regierungsbezirke, Bundesländer) und vereinfacht. Bei Regionen ohne amtliche Grenze, zum Beispiel Landschaften oder die Einzugsgebiete einzelner Communities, ist das Gebiet angenähert. Solche Regionen tragen in der Beschreibung den Hinweis "Gebiet angenähert, bitte bei Bedarf anpassen." Die jeweilige Community weiß am besten, wo ihre Region endet, und ist eingeladen, das Gebiet zu korrigieren.
 
+Jede Region ist möglichst eine zusammenhängende Fläche. Kleine Exklaven von Gemeinden und Kreisen, etwa Waldstücke im Gebiet der Nachbargemeinde, zählen zu der Region, in der sie liegen. Aus mehreren Flächen bestehen nur Regionen, die wirklich getrennt sind: Inseln, Bremen mit Bremerhaven oder Gebiete, die durch Wasser oder das Ausland vom Rest getrennt sind.
+
 Ein paar Scopes haben bewusst kein Gebiet, weil es keine feste Abgrenzung gibt: `rheinland`, `fr`, `de-dk`, `dach`, `europe`, `local` und `lokal`.
 
 ## Quellen und Lizenz
